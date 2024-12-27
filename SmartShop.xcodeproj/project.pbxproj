@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E792BA592D1BB101001E0068 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA582D1BB101001E0068 /* Stripe */; };
+		E792BA5B2D1BB101001E0068 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA5A2D1BB101001E0068 /* StripeApplePay */; };
+		E792BA5D2D1BB101001E0068 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA5C2D1BB101001E0068 /* StripeCardScan */; };
+		E792BA5F2D1BB101001E0068 /* StripeConnect in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA5E2D1BB101001E0068 /* StripeConnect */; };
+		E792BA612D1BB101001E0068 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA602D1BB101001E0068 /* StripeFinancialConnections */; };
+		E792BA632D1BB101001E0068 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA622D1BB101001E0068 /* StripeIdentity */; };
+		E792BA652D1BB101001E0068 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA642D1BB101001E0068 /* StripePaymentSheet */; };
+		E792BA672D1BB101001E0068 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA662D1BB101001E0068 /* StripePayments */; };
+		E792BA692D1BB101001E0068 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = E792BA682D1BB101001E0068 /* StripePaymentsUI */; };
+		E7CE90A22D11DECE00ACBE86 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = E7CE90A12D11DECE00ACBE86 /* JWTDecode */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7CE90742D10967300ACBE86 /* SmartShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E7CE90762D10967300ACBE86 /* SmartShop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartShop;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7CE90712D10967300ACBE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E792BA672D1BB101001E0068 /* StripePayments in Frameworks */,
+				E792BA652D1BB101001E0068 /* StripePaymentSheet in Frameworks */,
+				E792BA5D2D1BB101001E0068 /* StripeCardScan in Frameworks */,
+				E792BA612D1BB101001E0068 /* StripeFinancialConnections in Frameworks */,
+				E792BA5B2D1BB101001E0068 /* StripeApplePay in Frameworks */,
+				E792BA632D1BB101001E0068 /* StripeIdentity in Frameworks */,
+				E7CE90A22D11DECE00ACBE86 /* JWTDecode in Frameworks */,
+				E792BA592D1BB101001E0068 /* Stripe in Frameworks */,
+				E792BA692D1BB101001E0068 /* StripePaymentsUI in Frameworks */,
+				E792BA5F2D1BB101001E0068 /* StripeConnect in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7CE906B2D10967300ACBE86 = {
+			isa = PBXGroup;
+			children = (
+				E7CE90762D10967300ACBE86 /* SmartShop */,
+				E7CE90752D10967300ACBE86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7CE90752D10967300ACBE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7CE90742D10967300ACBE86 /* SmartShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7CE90732D10967300ACBE86 /* SmartShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CE90822D10967400ACBE86 /* Build configuration list for PBXNativeTarget "SmartShop" */;
+			buildPhases = (
+				E7CE90702D10967300ACBE86 /* Sources */,
+				E7CE90712D10967300ACBE86 /* Frameworks */,
+				E7CE90722D10967300ACBE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E7CE90762D10967300ACBE86 /* SmartShop */,
+			);
+			name = SmartShop;
+			packageProductDependencies = (
+				E7CE90A12D11DECE00ACBE86 /* JWTDecode */,
+				E792BA582D1BB101001E0068 /* Stripe */,
+				E792BA5A2D1BB101001E0068 /* StripeApplePay */,
+				E792BA5C2D1BB101001E0068 /* StripeCardScan */,
+				E792BA5E2D1BB101001E0068 /* StripeConnect */,
+				E792BA602D1BB101001E0068 /* StripeFinancialConnections */,
+				E792BA622D1BB101001E0068 /* StripeIdentity */,
+				E792BA642D1BB101001E0068 /* StripePaymentSheet */,
+				E792BA662D1BB101001E0068 /* StripePayments */,
+				E792BA682D1BB101001E0068 /* StripePaymentsUI */,
+			);
+			productName = SmartShop;
+			productReference = E7CE90742D10967300ACBE86 /* SmartShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7CE906C2D10967300ACBE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E7CE90732D10967300ACBE86 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = E7CE906F2D10967300ACBE86 /* Build configuration list for PBXProject "SmartShop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7CE906B2D10967300ACBE86;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E7CE90A02D11DECE00ACBE86 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */,
+				E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7CE90752D10967300ACBE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7CE90732D10967300ACBE86 /* SmartShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7CE90722D10967300ACBE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7CE90702D10967300ACBE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7CE90802D10967400ACBE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7CE90812D10967400ACBE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7CE90832D10967400ACBE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WB8SXN53W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdifatahahmed.SmartShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7CE90842D10967400ACBE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WB8SXN53W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdifatahahmed.SmartShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7CE906F2D10967300ACBE86 /* Build configuration list for PBXProject "SmartShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CE90802D10967400ACBE86 /* Debug */,
+				E7CE90812D10967400ACBE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CE90822D10967400ACBE86 /* Build configuration list for PBXNativeTarget "SmartShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CE90832D10967400ACBE86 /* Debug */,
+				E7CE90842D10967400ACBE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.2.0;
+			};
+		};
+		E7CE90A02D11DECE00ACBE86 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E792BA582D1BB101001E0068 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		E792BA5A2D1BB101001E0068 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		E792BA5C2D1BB101001E0068 /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCardScan;
+		};
+		E792BA5E2D1BB101001E0068 /* StripeConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeConnect;
+		};
+		E792BA602D1BB101001E0068 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeFinancialConnections;
+		};
+		E792BA622D1BB101001E0068 /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeIdentity;
+		};
+		E792BA642D1BB101001E0068 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentSheet;
+		};
+		E792BA662D1BB101001E0068 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePayments;
+		};
+		E792BA682D1BB101001E0068 /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E792BA572D1BB101001E0068 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentsUI;
+		};
+		E7CE90A12D11DECE00ACBE86 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7CE90A02D11DECE00ACBE86 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E7CE906C2D10967300ACBE86 /* Project object */;
+}
